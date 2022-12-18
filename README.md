@@ -3,8 +3,8 @@
 Web Serial interface for [Grove Vision AI Module](https://github.com/taunoe/grove-vision-ai).
 
 - Connect MCU to send I2C coomand
-- Connect USB-CC
-- Open with Crome: [taunoe.github.io/grove-ai-vision/](taunoe.github.io/grove-ai-vision/)
+- Connect USB-C (Works on Windows, but not on Linux)
+- Open with Google Chrome: [taunoe.github.io/grove-ai-vision/](taunoe.github.io/grove-ai-vision/)
 
 Screenshot:
 
