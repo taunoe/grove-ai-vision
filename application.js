@@ -99,7 +99,7 @@ const MODEL_PRE_INDEX_1_TARGET_2 = 'Person';
                                 canvas.width = width;
                                 canvas.height = height;
                                 ctx.translate(canvas.width * 0.5, canvas.height * 0.5);
-                                ctx.rotate(-1* Math.PI/2);
+                                //ctx.rotate(-1* Math.PI/2);
                                 ctx.drawImage(img, - canvas.width / 2, - canvas.height / 2, canvas.width, canvas.height);
                             }
                         } else {
