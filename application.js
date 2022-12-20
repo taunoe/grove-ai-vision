@@ -96,7 +96,7 @@ const MODEL_PRE_INDEX_1_TARGET_2 = 'Person';
                             img.onload = function () {
                                 let width = this.naturalWidth;
                                 let height = this.naturalHeight;
-                                canvas.width = width
+                                canvas.width = width;
                                 canvas.height = height;
                                 ctx.translate(canvas.width * 0.5, canvas.height * 0.5);
                                 ctx.rotate(-1* Math.PI/2);
@@ -107,7 +107,7 @@ const MODEL_PRE_INDEX_1_TARGET_2 = 'Person';
                             var canvas = document.getElementById("myCavans");
                             var ctx = canvas.getContext("2d");
                             ctx.translate(96, -96);
-                            ctx.rotate(1* Math.PI/2);
+                            //ctx.rotate(1* Math.PI/2);
                             ctx.strokeStyle = "#f00";
                             ctx.fillStyle = "#0f0";
                             try {
